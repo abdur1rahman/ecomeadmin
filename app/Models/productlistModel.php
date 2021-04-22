@@ -7,10 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class productlistModel extends Model
 {
-    public $table='productlist';
-   public  $primaryKey='id';
-   public $timestamps=false;
-   public $keyType='int';
-   public $incrementing=true;
+     public $table='productlist';
+     public  $primaryKey='id';
+     public $incrementing=true;
+     public $keyType='int';
+     public $timestamps=false;
 
 }

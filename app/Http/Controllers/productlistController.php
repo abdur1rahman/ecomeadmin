@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class productlistController extends Controller
 {
     function productlist(Request $request){
-        $remark = $request->remark();
+        $remark = $request->remark;
         $result = productlistModel::where('remark',$remark)->get();
         return $result;
     }

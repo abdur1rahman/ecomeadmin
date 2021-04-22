@@ -15,16 +15,16 @@ class ProductlistMigration extends Migration
     {
         Schema::create('productlist',function (Blueprint $table){
             $table->bigIncrements('id');
-            $table->String('title');
-            $table->String('price');
-            $table->String('specialprice');
-            $table->String('image');
-            $table->String('category');
-            $table->String('subcategory');
-            $table->String('remark');
-            $table->String('brand');
-            $table->String('star');
-            $table->String('produtcode');
+            $table->string('title');
+            $table->string('price');
+            $table->string('specialprice');
+            $table->string('image');
+            $table->string('category');
+            $table->string('subcategory');
+            $table->string('remark');
+            $table->string('brand');
+            $table->string('star');
+            $table->string('produtcode');
         });
     }
 
