@@ -12,17 +12,22 @@ class productlistController extends Controller
         $result = productlistModel::where('remark',$remark)->get();
         return $result;
     }
-    function productlistByCategori(Request $request){
-        $categori = $request->categori;
-        $result = productlistModel::where('category',$categori)->get();
+    function productlistBySubCategori(Request $request){
+        $Categori = $request->Categori;
+        $SubCategori = $request->SubCategori;
+        $result = productlistModel::where('category', $Categori)->where('subcategory', $SubCategori)->get();
         return $result;
     }
-    function ProductlistBySubCatgori(Request $request){
-        $categori = $request->categori;
-        $subCategori = $request->subcategori;
-        $result = productlistModel::where('category',$categori)->where('subcategory',$subCategori)->get();
+    function ProductListByCategori(Request $request){
+        $Categori = $request->Category;
+        $result =  productlistModel::where('category', $Categori)->get();
         return $result;
     }
+    function ProductSearch(Request $request){
+        $SearchKey = $request->Key;
+        $result = productlistModel::where('title',"LIKE", "%{$SearchKey}%")->get();
+        return $result;
 
+    }
 
-}
+   }

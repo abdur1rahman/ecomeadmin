@@ -13,7 +13,7 @@ class productdetailsController extends Controller
         $productdetails = productdetailsModel::where('produtcode',$product)->get();
         $productlist = productlistModel::where('produtcode',$product)->get();
        $item= [
-            'productdetails'=>$productdetails,
+           'productdetails'=>$productdetails,
            'productlist'=>$productlist,
         ];
         return $item;
