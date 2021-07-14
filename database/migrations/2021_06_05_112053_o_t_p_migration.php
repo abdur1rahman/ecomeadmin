@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class SettingMigration extends Migration
+class OTPMigration extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,12 @@ class SettingMigration extends Migration
      */
     public function up()
     {
-        Schema::create('settingtable',function (Blueprint $table){
-            $table->bigIncrements('id');
-            $table->string('ssl_wirless_sms_api_token');
-            $table->string('ssl_wirless_sms_sid');
-            $table->string('ssl_wirless_sms_domin');
+        Schema::create('otp_table',function (Blueprint $table){
+           $table->bigIncrements('id');
+           $table->string('mobile');
+           $table->string('create_time_stamp');
+           $table->string('create_date');
+           $table->string('create_time');
         });
     }
 

@@ -25,6 +25,7 @@ class ProductlistMigration extends Migration
             $table->string('brand');
             $table->string('star');
             $table->string('produtcode');
+
         });
     }
 

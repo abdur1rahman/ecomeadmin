@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="17fa250c-bff5-4795-be8f-1a3932ba3c95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/productdetailsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/productdetailsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/productlistController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/productlistController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/SettingModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/SettingModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_21_143249_productlist_migration.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_21_143249_productlist_migration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_06_05_103529_setting_migration.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_06_05_103529_setting_migration.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +192,42 @@
       <workItem from="1622267490563" duration="570000" />
       <workItem from="1622268160824" duration="1729000" />
       <workItem from="1622270031484" duration="371000" />
-      <workItem from="1622889261145" duration="347000" />
+      <workItem from="1622889261145" duration="1058000" />
+      <workItem from="1622890469756" duration="1198000" />
+      <workItem from="1622892304679" duration="652000" />
+      <workItem from="1622967434473" duration="586000" />
+      <workItem from="1624017069835" duration="641000" />
+      <workItem from="1624118988713" duration="292000" />
+      <workItem from="1625305927024" duration="1553000" />
+      <workItem from="1625307615701" duration="750000" />
+      <workItem from="1625371742835" duration="2115000" />
+      <workItem from="1625375189371" duration="595000" />
+      <workItem from="1625377323471" duration="1841000" />
+      <workItem from="1625379228501" duration="855000" />
+      <workItem from="1625381099067" duration="892000" />
+      <workItem from="1625384459296" duration="1826000" />
+      <workItem from="1625389032628" duration="909000" />
+      <workItem from="1625391788359" duration="1619000" />
+      <workItem from="1625551001783" duration="746000" />
+      <workItem from="1625552474459" duration="1755000" />
+      <workItem from="1625554413258" duration="1563000" />
+      <workItem from="1625571382083" duration="105000" />
+      <workItem from="1625572992814" duration="93000" />
+      <workItem from="1625573204291" duration="1757000" />
+      <workItem from="1625575249173" duration="1757000" />
+      <workItem from="1625624420185" duration="1685000" />
+      <workItem from="1625626326073" duration="1664000" />
+      <workItem from="1625629902861" duration="2329000" />
+      <workItem from="1625632698100" duration="781000" />
+      <workItem from="1625634504289" duration="185000" />
+      <workItem from="1625727360819" duration="1547000" />
+      <workItem from="1625729005580" duration="1090000" />
+      <workItem from="1625746478263" duration="466000" />
+      <workItem from="1625754879317" duration="297000" />
+      <workItem from="1625758029371" duration="919000" />
+      <workItem from="1625763731500" duration="205000" />
+      <workItem from="1625804186438" duration="846000" />
+      <workItem from="1625909709887" duration="358000" />
     </task>
     <servers />
   </component>
@@ -199,9 +235,13 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1619955652490">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1625625033230">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1619955652490" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1625625033230" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1622892489170">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1622892489170" />
   </component>
 </project>

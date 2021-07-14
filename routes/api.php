@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AddToCartController;
 use App\Http\Controllers\categoriController;
 use App\Http\Controllers\contactController;
 
@@ -26,3 +27,5 @@ Route::get('/productlistBySubCategori/{Categori}/{SubCategori}',[productlistCont
 Route::get('/ProductListByCategori/{Category}',[productlistController::class,'ProductListByCategori']);
 Route::get('/ProductSearch/{Key}',[productlistController::class,'ProductSearch']);
 Route::get('/notification',[NotificationController::class,'NotificactionHistory']);
+
+Route::post('/AddToCart',[AddToCartController::class, 'addTocart']);
