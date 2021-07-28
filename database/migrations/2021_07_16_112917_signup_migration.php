@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class OrderMigration extends Migration
+class SignupMigration extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,13 @@ class OrderMigration extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('signuptable',function (Blueprint $table){
+            $table->bigIncrements('id');
+            $table->string('username');
+            $table->string('password');
+            $table->string('phone');
+            $table->string('email');
+        });
     }
 
     /**

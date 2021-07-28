@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="17fa250c-bff5-4795-be8f-1a3932ba3c95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/SettingModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/SettingModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_21_143249_productlist_migration.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_21_143249_productlist_migration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_06_05_103529_setting_migration.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_06_05_103529_setting_migration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AddToCartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AddToCartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/AddToCartModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/AddToCartModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/OrderModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/OrderModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_07_03_095547_order_migration.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -228,20 +240,64 @@
       <workItem from="1625763731500" duration="205000" />
       <workItem from="1625804186438" duration="846000" />
       <workItem from="1625909709887" duration="358000" />
+      <workItem from="1626270760647" duration="448000" />
+      <workItem from="1626325353650" duration="895000" />
+      <workItem from="1626328488785" duration="594000" />
+      <workItem from="1626332591821" duration="1708000" />
+      <workItem from="1626334453616" duration="1761000" />
+      <workItem from="1626336344885" duration="1086000" />
+      <workItem from="1626338230736" duration="1846000" />
+      <workItem from="1626344934950" duration="1675000" />
+      <workItem from="1626346720204" duration="705000" />
+      <workItem from="1626434704776" duration="1594000" />
+      <workItem from="1626436517564" duration="1914000" />
+      <workItem from="1626438978750" duration="1115000" />
+      <workItem from="1626706646522" duration="1180000" />
+      <workItem from="1626708088244" duration="1722000" />
+      <workItem from="1626709880857" duration="1762000" />
+      <workItem from="1626712126256" duration="1787000" />
+      <workItem from="1626933774047" duration="1630000" />
+      <workItem from="1626935863062" duration="490000" />
+      <workItem from="1627004088413" duration="35000" />
+      <workItem from="1627006967600" duration="766000" />
+      <workItem from="1627008975573" duration="1704000" />
+      <workItem from="1627010832969" duration="1689000" />
+      <workItem from="1627012597940" duration="1767000" />
+      <workItem from="1627014430868" duration="318000" />
+      <workItem from="1627044607656" duration="745000" />
+      <workItem from="1627045452394" duration="242000" />
+      <workItem from="1627107371177" duration="5000" />
+      <workItem from="1627107615775" duration="1152000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1625625033230">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1625625033230" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1622892489170">
+    <state x="492" y="86" key="NewPhpClassDialog" timestamp="1626337594204">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1622892489170" />
+    <state x="492" y="86" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1626337594204" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1626710443680">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1626710443680" />
   </component>
 </project>

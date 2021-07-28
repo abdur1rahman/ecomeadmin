@@ -2,44 +2,58 @@
 
 namespace App\Http\Controllers;
 
+
 use App\Models\AddToCartModel;
 use App\Models\productlistModel;
+
 use Illuminate\Http\Request;
 
 class AddToCartController extends Controller
 {
-    function addTocart(Request $request){
-        $color = $request->input('color');
-        $size = $request->input('size');
-        $quantity = $request->input('quantiti');
-        $mobileNo = $request->input('mobileNo');
-        $product_code = $request->input('product_code');
-        $shop_name= $request->input('shopName');
-        $shop_code= $request->input('ShopCode');
+   function AddToCart(Request $request){
+       $color = $request->input('color');
+       $size = $request->input('size');
+       $quantity = $request->input('quantity');
+       $produtcode = $request->input('produtcode');
 
-         
-        $ProductDetails = productlistModel::where('produtcode',$product_code)->get();
-             $price = $ProductDetails[0]['price'];
-              $special_price = $ProductDetails['specialprice'];
-              if($special_price===false){
-                  $total_price = $price*$quantity;
-                  $unit_price = $price;
-              }
 
-        $result =AddToCartModel::insert([
+       $ProductDetails=productlistModel::where('produtcode',$produtcode)->get();
+       $unitPrice = $ProductDetails[0]['price'];
+       $totalprice = $unitPrice*$quantity;
 
-            'img'=> $ProductDetails['image'],
-            'product_name'=>$ProductDetails['title'],
-            'product_code'=> $product_code,
-            'shop_name'=> $shop_name,
-            'shop_code'=> $shop_code,
-            'product_info'=>"Color:  ". $color ."Size: ".$size,
-            'product_quantity'=>$quantity,
-            'unit_price'=>$unit_price,
-            'total_price'=>$total_price,
-            'mobile'=>$mobileNo
+       $result= AddToCartModel::insert([
+           'img'=>$ProductDetails[0]['image'],
+           'product_name'=>$ProductDetails[0]['title'],
+           'product_code'=>$ProductDetails[0]['produtcode'],
+           'product_info'=> "color ".$color." size ".$size,
+           'product_quantity'=>$quantity,
+           'unit_price'=>$unitPrice,
+           'total_price'=>$totalprice
 
-        ]);
-        return $result;
+       ]);
+
+       if($result==1){
+           return 1;
+       }else{
+           return 0;
+       }
+
+   }
+
+   function cartItem(){
+    $result = AddToCartModel::get();
+    return $result;
+    if($result==1){
+        return 1;    
+    }else{
+        return 0;
     }
+
+}
+
+
+
+
+
+
 }
