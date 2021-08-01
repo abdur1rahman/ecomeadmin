@@ -75,5 +75,15 @@ class OrderController extends Controller
             return 0;
         }
     }
+    function RemoveOrderHistory(Request $request){
+        $result= OrderModel::get();
+        $resultDelete= OrderModel::where('id', $result[0]['id'])->delete();
+         return $resultDelete;
+         if($resultDelete==1){
+             return 1;
+         }else{
+             return 0;
+         }
+    }
 
 }

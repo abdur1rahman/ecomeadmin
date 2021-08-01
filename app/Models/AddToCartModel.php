@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class AddToCartModel extends Model
 {
-   public $table='addtocart2';
+   public $table='addtocart';
    public $incrementing=true;
    public $keyType='int';
    public $timestamps=false;

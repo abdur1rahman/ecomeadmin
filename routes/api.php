@@ -28,6 +28,7 @@ Route::get('/ProductSearch/{Key}',[productlistController::class,'ProductSearch']
 Route::get('/notification',[NotificationController::class,'NotificactionHistory']);
 Route::post('/AddToCart',[AddToCartController::class, 'AddToCart']);
 Route::post('/AddToOrder',[OrderController::class, 'AddToOrder']);
+Route::post('/RemoveOrder',[OrderController::class, 'RemoveOrderHistory']);
 Route::post('/signup',[signupcontroller::class,'signup']);
 Route::post('/onLogin',[signupcontroller::class,'onLogin']);
 Route::get('/cartlist',[AddToCartController::class, 'cartItem']);
