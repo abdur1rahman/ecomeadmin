@@ -17,7 +17,7 @@ class ContactMigration extends Migration
             $table->bigIncrements('id');
             $table->String('name');
             $table->String('phone');
-            $table->String('messagge	');
+            $table->String('messagge');
         }) ;
     }
 

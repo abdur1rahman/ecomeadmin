@@ -12,13 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="17fa250c-bff5-4795-be8f-1a3932ba3c95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AddToCartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AddToCartController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrderController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/AddToCartModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/AddToCartModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/OrderModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/OrderModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_07_03_095547_order_migration.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_19_023052_contact_migration.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_04_19_023052_contact_migration.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +146,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/storage/app/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my-app" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -268,6 +262,8 @@
       <workItem from="1627045452394" duration="242000" />
       <workItem from="1627107371177" duration="5000" />
       <workItem from="1627107615775" duration="1152000" />
+      <workItem from="1649138312101" duration="691000" />
+      <workItem from="1649143563417" duration="665000" />
     </task>
     <servers />
   </component>
@@ -287,17 +283,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1625625033230">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1649138453715">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1625625033230" />
-    <state x="492" y="86" key="NewPhpClassDialog" timestamp="1626337594204">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="492" y="86" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1626337594204" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1626710443680">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1626710443680" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1649138453715" />
   </component>
 </project>
